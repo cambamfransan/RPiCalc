@@ -1,4 +1,5 @@
 #include "ComputePi.hpp"
+#include <cmath>
 #include <iostream>
 
 #define mul_mod(a,b,m) std::fmod( (double) a * (double) b, m)
