@@ -6,6 +6,7 @@
 
 unsigned int pi::computeDigit(int n)
 {
+  if(n == 0) return 3;
   int av, a, vmax, N, num, den, k, kq, kq2, t, v, s, i;
   double sum = 0;
 
