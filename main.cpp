@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
   {
     return 0;
   }
-  std::cout << pi::computeDigit(number) << std::endl;
+  std::cout << pi::computeDigit(number);
 
   return 0;
 }
